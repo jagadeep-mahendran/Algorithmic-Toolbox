@@ -42,7 +42,7 @@ public class Partition3 {
         }
 
         int totalSum = Arrays.stream(A).reduce(0, (a1,a2) -> a1 + a2);
-        System.out.println(partitionRecursion(A,0,0,0, totalSum));
+        System.out.println(partitionRecursion(A,0,0,0,0, totalSum));
     }
 }
 
